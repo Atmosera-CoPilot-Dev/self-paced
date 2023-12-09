@@ -1,0 +1,182 @@
+<html>
+
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+	<table class="layouttable" cellspacing="0" cellpadding="0" border="0"
+		style="border-width:0px;border-collapse:collapse;">
+		<tr valign="Top" style="height:1pt;">
+			<td colspan="2" style="height:20px;">
+				<table class="layouttable" cellspacing="0" cellpadding="0" nowrap="" border="0"
+					style="border-width:0px;width:100%;border-collapse:collapse;">
+					<tr>
+						<td class="titlebarRight" nowrap align="Left" valign="Bottom">&nbsp;&nbsp;&nbsp;&nbsp;<i><span
+									class="titlebarText"></span></i></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table width="100%" bgcolor="white">
+		<tr>
+			<td>
+				<div class="instructions">
+					<h2>Interface Inheritance</h2>
+					<hr>
+					<h3>Goals:</h3>
+					<ul>
+						<li>Use copilot to assist you in writing an interface and coding classes that implement an interface.</li>
+					</ul>
+					<hr>
+
+					<h2>
+						Inheritance</h2>
+
+					</p>
+					<h3>steps:</h3>
+					<ol>
+						<li>
+							<p>
+								Code a class to represent an <font color="#000058"><code>Employee</code></font>. Make
+								the employee class abstract since
+								it models an abstract concept that should never be instantiated. Add two public fields:
+								a <font color="#000058"><code>string</code></font> for the name and a <font
+									color="#000058"><code>double</code></font> for the salary. Add a protected
+								constructor that sets the name and salary. Making the constructor protected does not
+								really
+								change the behavior of the class since it is already abstract (and thus cannot be
+								instantiated).
+								However, an abstract class with a public constructor seems odd - external clients can
+								never
+								use the constructor since the class is abstract. Making the constructor protected
+								emphasizes
+								the fact that clients cannot instantiate the class. Add a public virtual
+								<font color="#000058"><code>Print</code></font> method that prints the name and salary
+								of the employee to the console.
+							</p>
+						</li>
+						<li>
+							<p>
+								Derive a <font color="#000058"><code>Programmer</code></font> class from <font
+									color="#000058"><code>Employee</code></font>. Add a private
+								<font color="#000058"><code>double</code></font> field to store the average overtime
+								worked by the programmer. Provide a
+								public constructor that sets the name, salary, and overtime of the programmer. Call the
+								<font color="#000058"><code>Employee</code></font> constructor to set the name and
+								salary rather than assigning to the
+								protected fields directly. Override the virtual print method to chain to the base class
+								version first and then print out the derived class fields.
+							</p>
+						</li>
+						<li>
+							<p>
+								Derive a <font color="#000058"><code>Manager</code></font> class from <font
+									color="#000058"><code>Employee</code></font>. Add a private
+								<font color="#000058"><code>string</code></font> field to store the name of the
+								manager's assistant. Provide a public
+								constructor that sets the name, salary, and assistant of the manager. Call the <font
+									color="#000058"><code>Employee</code></font>
+								constructor to set the name and salary rather than assigning to the protected fields
+								directly.
+								Override the virtual print method to chain to the base class version first and then
+								print
+								out the derived class fields.
+							</p>
+						</li>
+						<li>
+							<p>
+								Derive an <font color="#000058"><code>Intern</code></font> class from <font
+									color="#000058"><code>Employee</code></font>. Add a private <font color="#000058">
+									<code>int</code>
+								</font>
+								field to store the number of months of the internship. Provide a public constructor that
+								sets the
+								name, salary, and internship length. Call the <font color="#000058">
+									<code>Employee</code>
+								</font> constructor to set the name and
+								salary rather than assigning to the protected fields directly. Override the virtual
+								print
+								method to chain to the base class version first and then print out the derived class
+								fields.
+							</p>
+						</li>
+						<li>
+							<p>
+								Instantiate a <font color="#000058"><code>Programmer</code></font> object and a <font
+									color="#000058"><code>Manager</code></font> object. Call the <font color="#000058">
+									<code>Print</code>
+								</font> method on each object to verify that the correct version of the method is
+								called.
+							</p>
+
+					</ol>
+					<hr>
+					<h2>
+
+						Interface</h2>
+					<p class="labOverview">
+					<p>
+						We would like to promote our employees by coding a <font color="#000058"><code>Promote</code>
+						</font> method. However, not
+						all employees are eligible for promotion: programmers and managers get promoted, but interns are
+						temporary employees and are not eligible. Because not all our classes should support the
+						promote operation, it would be incorrect to add the method to the employee class. Instead, we
+						define
+						a separate interface <font color="#000058"><code>IPromotable</code></font> for the method.
+						Programmer and manager
+						implement the interface while intern does not. Once we have the interface implemented, we then
+						write some generic code to work with a group of employees and promote only those that are
+						eligible.
+					</p>
+					</p>
+					<h3>steps:</h3>
+					<ol>
+						<li>
+							<p>
+								Code an interface named <font color="#000058"><code>IPromotable</code></font> containing
+								a <font color="#000058"><code>Promote</code></font>
+								method. <font color="#000058"><code>Promote</code></font> should take no arguments and
+								return <font color="#000058"><code>void</code></font>.
+							</p>
+						</li>
+						<li>
+							<p>
+								Implement the <font color="#000058"><code>IPromotable</code></font> interface in both
+								the programmer and manager classes.
+								Programmers get a 10% raise when promoted and Managers a 50% raise.
+							</p>
+						</li>
+						<li>
+							<p>
+								Create a driver class <font color="#000058"><code>Program</code></font> containing a
+								<font color="#000058"><code>Main</code></font> method.
+								Make an array of <font color="#000058"><code>Employee</code></font> references and fill
+								the array with a mix of programmers,
+								managers, and interns. Loop through the array and call <font color="#000058">
+									<code>Promote</code>
+								</font> on those objects that
+								implement the <font color="#000058"><code>IPromotable</code></font> interface. Recall
+								that you can use the <font color="#000058"><code>is</code></font> operator
+								to test if an object implements a particular interface. Note that you will not be able
+								to call <font color="#000058"><code>Promote</code></font> through an <font
+									color="#000058"><code>Employee</code></font> reference so casting will be required.
+								You may want to use the print method to display the contents of the array before and
+								after the promotions.
+							</p>
+						</li>
+					</ol>
+					<h3>Solution:</h3>
+					<div><a href="../../../../work/InterfaceInheritance/After/Interfaces.cs"
+							target="new">Interfaces.cs</a><br></div>
+					<hr>
+
+</body>
+
+</html>

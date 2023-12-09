@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Methods</title>
+</head>
+<body>
+
+    <script>
+
+        var names = [
+            {
+                first: 'Jim',
+                last: 'Jones'
+            },
+                        {
+                first: 'Li',
+                last: 'Fen'
+            },
+            {
+                first: 'May',
+                last: 'Ti'
+            },
+                        {
+                first: 'J. T.',
+                last: 'Thomas'
+            }
+        ];
+        
+        var mappedNames = names.map(function (current){
+            return current.last + ', ' + current.first;
+        });
+        
+        mappedNames.forEach(function (current) {
+            //document.writeln(current);
+            document.write(current + '<br/>');
+
+        });
+    </script>
+
+</body>
+
+</html>
