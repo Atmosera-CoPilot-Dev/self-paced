@@ -6,7 +6,7 @@ using namespace std;
 
 Vector::Vector()
 {
-	m_vec = new int[size];
+	m_vec = new int[Vector::size];
 }
 
 Vector::~Vector()
@@ -16,13 +16,13 @@ Vector::~Vector()
 
 void Vector::Set(int *arr)
 {
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < Vector::size; i++)
 		m_vec[i] = arr[i];
 }
 		
 void Vector::Print()
 {
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < Vector::size; i++)
 		cout << m_vec[i] << "  ";
 	cout << endl;
 }
