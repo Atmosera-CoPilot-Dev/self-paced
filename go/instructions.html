@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise Instructions</title>
+</head>
+
+<body>
+    <h1>Exercise Instructions</h1>
+    <p>Follow the instructions below to build a robot with help from copilot:</p>
+
+    <h2>Step 1</h2>
+    <p>Define a type "direction" based on the built-in type int</p>
+
+    <h2>Step 2</h2>
+    <p>Create an enumeration of type direction with named constants north, south, east, and west.<br>
+        Use iota to set the sequence</p>
+
+    <h2>Step 3</h2>
+    <p>Define a type named "robot" based on struct<br>
+        Add the following fields:</p>
+    <ul>
+        <li>name (string)</li>
+        <li>x, y (int)</li>
+        <li>direction (direction)</li>
+    </ul>
+
+
+    <!-- Add more steps as needed -->
+
+    <h2>Step 4</h2>
+    <p>Create a method of robot named "initialize" that takes an argument of type string.<br>
+        Assign the argument to the name field of the robot</p>
+
+    <h2>Step 5</h2>
+    <p>Create a method of robot named "move" that takes an argument of type direction.<br>
+        Using a switch statement:</p>
+    <ul>
+        <li>increment x if the direction is north,</li>
+        <li>increment y if the direction is east,</li>
+        <li>decrement x if the direction is west,</li>
+        <li>decrement y if the direction is south,</li>
+    </ul>
+
+    <h2>Step 6</h2>
+    <p>
+        Create a method of robot named "calculateDistance" that returns a value of type float64
+        Using math.Sqrt, calculate the distance from the center using
+        the formula for the hypotenuse: <b>sqrt(x * x + y * y)</b><br>
+        Return the value
+    </p>
+
+    <h2>Step 7</h2>
+    <p>
+        In main():<br>
+    <ul>
+        <li>Create a robot</li>
+        <li>Set the name to "tobor"</li>
+        <li>Move north, east, north, north</li>
+        <li>Print the coordinates and the distance from the center</li>
+    </ul>
+    The output sould look like this:<br>
+    Location: (1, 3)<br>
+    Distance from center: 3.162278<br>
+    </p>
+
+
+</body>
+
+</html>
