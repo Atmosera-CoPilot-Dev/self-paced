@@ -8,6 +8,7 @@ int Vector::size;
 
 int main()
 {
+	// explain this code in detail for documentation
 	Vector::size = 3;
 	int arr1[] = {1, 2, 3};
 	int arr2[] = {1, 4, 9};
