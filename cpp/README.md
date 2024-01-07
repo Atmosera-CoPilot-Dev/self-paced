@@ -4,7 +4,7 @@ This exercise will give you an opportunity to use prompt engineering to implemen
 
 ## Instructions
 
-- Use CoPilot to find the file containing the entrypoint `main()`. This file does not need to be changed.
+- Use Copilot to find the file containing the entrypoint `main()`. This file does not need to be changed.
 
 - Use Copilot to implement the vector methods in the file Vector.cpp
 
