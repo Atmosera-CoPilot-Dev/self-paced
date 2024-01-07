@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Array Methods</title>
 </head>
+
 <body>
 
     <script>
+        // PART 1
 
         var names = [
             {
                 first: 'Jim',
                 last: 'Jones'
             },
-                        {
+            {
                 first: 'Li',
                 last: 'Fen'
             },
@@ -20,19 +23,31 @@
                 first: 'May',
                 last: 'Ti'
             },
-                        {
+            {
                 first: 'J. T.',
                 last: 'Thomas'
             }
         ];
-        
-        var mappedNames = names.map(function (){
+
+        var mappedNames = names.map(function () {
             //   return a string in the form 'last, first'
         });
-        
-        mappedNames.forEach(function (){
+
+        mappedNames.forEach(function () {
             // use document.write to print each name in its new form
         });
+
+        // PART 2
+
+        var emps = [
+            { id: 1, name: 'J. Jones', salary: 94000.00 },
+            { id: 2, name: 'A. Smith', salary: 54000.00 },
+            { id: 3, name: 'B. Ju', salary: 62000.00 },
+            { id: 4, name: 'A. C. Linn', salary: 75000.00 }
+        ]
+
+        // Your code here
+
     </script>
 
 </body>
