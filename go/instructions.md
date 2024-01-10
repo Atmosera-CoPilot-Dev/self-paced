@@ -1,7 +1,3 @@
----
-title: Exercise Instructions
----
-
 # Exercise Instructions
 
 If you don't already have the Go runtime installed, ask CoPilot for assistance.
