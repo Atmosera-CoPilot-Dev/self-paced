@@ -1,5 +1,4 @@
----
----
+# Functional JavaScript
 
 This workshop consists of 2 parts. Each exercise will reinforce your
 ability to use copilot to assist in solving problems.
