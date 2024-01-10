@@ -4,7 +4,7 @@ title: Exercise Instructions
 
 # Exercise Instructions
 
-If you don't already have the Go runtime installed, as CoPilot for help.
+If you don't already have the Go runtime installed, ask CoPilot for assistance.
 
 In the `starter` folder is a file `robot.go` that defines the main package and the imports you will need.
 
@@ -55,7 +55,7 @@ Return the value
 
 ## Step 7
 
-In main():\
+In main():
 
 -   Create a robot
 -   Set the name to \"tobor\"
