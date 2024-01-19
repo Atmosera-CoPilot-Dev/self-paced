@@ -7,19 +7,14 @@ All starter files are located in the starter folder.
 In file `create-repos.sh`:
 
 1) Prompt the user to enter a personal access token
-
 2) Create a repository using the GitHub REST API
-
 3) Create a test for the operations
 
 In file `fetch-repos.sh`:
 
 1) Set GitHub organization name and access token
-
 2) Make a GET request to the GitHub API to fetch all repositories in the organization
-
 3) Extract the repository names from the response and save them to a CSV file named repos.csv
-
 4) Create a test for the operations
 
 ## Part 2 - JS REST API with OctoKit
@@ -27,7 +22,7 @@ In file `fetch-repos.sh`:
 For the following, the necessary dependencies have been added to `package.json`.
 
 1) import the Octokit library
-2) import prompt-sync library
+2) import the prompt-sync library
 3) prompt for personnel authentication token
 4) authenticate with GitHub using a personal access token
 5) display the login name of authenticated user to the console
