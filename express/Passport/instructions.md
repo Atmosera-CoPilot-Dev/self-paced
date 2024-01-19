@@ -1,6 +1,8 @@
 # Passport
 
-This exercies will add authentication to an existing Express-based application using Passport. Open your command prompt or terminal and change to the `starter` folder to do your work.
+Follow the instructions provided to add authentication to an existing Express-based application using Passport. Open your command prompt or terminal and change to the `starter` folder to do your work.p. Use Copilot to assist you in generating d code to complete the exercise.
+
+Feel free to experiment by adding additional features to the completed application.
 
 You'll need four additional modules that aren't already part of the application. Run this command to get them all:
 

@@ -22,21 +22,26 @@ You\'re going to use the `express` module so run
 
 Create a file called `app.js` and implement the code using the following instructions to hand-off to Copilot. :
 
-- Import the 'path' module. This module provides utilities for working with file and directory paths.
+1) Import the module that provides utilities for working with file and directory paths.
 
-- Import the 'express' module. Express is a minimal and flexible Node.js web application framework.
+2) Import the 'express' module.
 
-- Import the 'morgan' module. Morgan is a HTTP request logger middleware for Node.js.
+3) Import an HTTP request logger middleware for Node.js.
 
-- Create an instance of Express application.
+4) Create an instance of Express application.
 
+5) Check if the application environment is 'development'.  If it is, use the logger middleware with 'dev' format.  'dev' format is concise output colored by response status for development use.
 
-- Check if the application environment is 'development'.  If it is, use the 'morgan' middleware with 'dev' format.  'dev' format is concise output colored by response status for development use.
+6) Serve static files located under 'node_modules/bootstrap/dist' directory. These files will be served at '/bootstrap' path.
 
-- Serve static files located under 'node_modules/bootstrap/dist' directory. These files will be served at '/bootstrap' path.
+7) Serve static files located under 'public' directory. These files will be served at '/' path.
 
-- Serve static files located under 'public' directory. These files will be served at '/' path.
+8) Get the port number from environment variables or else use 1337 as a default.
 
-- Get the port number from environment variables or use 1337 as a default.
+9) Start the server and listen on the specified port.
 
-- Start the server and listen on the specified port.
+10) Add comments for each operation in the app.
+
+11) Create a README.md file that extensivily describes the app.
+
+12) Create a unit test harness using either TDD or BDD style.
