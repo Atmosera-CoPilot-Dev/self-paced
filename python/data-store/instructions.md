@@ -6,7 +6,7 @@ These instructions assume you have Python 3 installed. You can use any OS you ch
 
 ## Part 1 Add file logging
 
-1) Open the program.py and logger.py files (or project if you are using PyCharm) in File_IO/Before/file_io_before. Notice that the program.py file depends upon the logger.py file. 
+1) Open the program.py and logger.py files (or project if you are using PyCharm) Before/file_io_before. Notice that the program.py file depends upon the logger.py file. 
 
 2) Run program.py and observe that it outputs a message warning that logging must be implemented.
 

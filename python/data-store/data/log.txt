@@ -1,0 +1,6 @@
+DESKTOP-QFASNJD/2024_1_21 19:2:47: Application starting up...
+DESKTOP-QFASNJD/2024_1_21 19:2:47: Data folder: C:\Users\ascop\Documents\Repos\workshops\python\data-store\data
+DESKTOP-QFASNJD/2024_1_21 19:2:47: Loading JSON file: C:\Users\ascop\Documents\Repos\workshops\python\data-store\data\python-course.json
+DESKTOP-QFASNJD/2024_1_21 19:2:47: Found course title to be: Python CoPilot
+DESKTOP-QFASNJD/2024_1_21 19:2:47: Loading CSV file: C:\Users\ascop\Documents\Repos\workshops\python\data-store\data\fx-seven-day.csv
+DESKTOP-QFASNJD/2024_1_21 19:2:47: 1 USD is worth 60.115357451149656 Rupees.
