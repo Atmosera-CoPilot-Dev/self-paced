@@ -31,8 +31,8 @@ console.log("Hello, %s", login);
 // for a repository, limit the number of issues to 1 per page.
 
 const { data } = await octokit.request("GET /repos/{owner}/{repo}/issues", {
-    owner: "Atmosera-CoPilot-Dev",
-    repo: "sample-cpp",
+    owner: "ORG-NAME",
+    repo: "REO-NAME",
     per_page: 1
 })
 // display repository issues to the console
