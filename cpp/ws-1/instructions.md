@@ -14,4 +14,10 @@ This exercise will give you an opportunity to use prompt engineering to implemen
 
 - The last method is an overloaded multiplication operator. It takes two Vector objects as arguments and calculates the dot product of their m_vec arrays. The dot product is calculated as the sum of the products of the corresponding elements in the two arrays.
 
-- Once you have implemented all the methods, compile and run the program.
+- Optionally, once you have implemented all the methods, compile and run the program.
+
+- If you have implemented the methods correctly, the program should compile and run without any errors. The program will create two Vector objects, set their m_vec arrays, print the arrays, and calculate the dot product of the two arrays.
+
+- use copilot to create a test file for the vector class. The test file should test the constructor, destructor, Set, Print, and the overloaded multiplication operator.
+
+
