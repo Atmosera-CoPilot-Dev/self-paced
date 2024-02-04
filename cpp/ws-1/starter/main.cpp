@@ -1,8 +1,7 @@
-// TestVector.cpp
+// main.cpp
 
 #include <iostream>
 #include "Vector.h"
-using namespace std;
 
 int Vector::size;
 

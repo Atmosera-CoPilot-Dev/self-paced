@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include "Vector.h"
-using namespace std;
+
+using std::cout, std::endl;
 
 
  // Implement the constructor for the Vector class. 

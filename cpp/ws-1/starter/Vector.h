@@ -1,5 +1,8 @@
 // Vector.h
+#pragma once
+#include <iostream>
 
+using std::cout, std::endl;
 class Vector
 {
 public:
