@@ -2,8 +2,10 @@
 
 ## Goals:
 - Use copilot to assist you in writing an interface and coding classes that implement an interface.
+- Explore the use of Copilot to write unit tests for your code.
+- Use XML documentation comments to document your code.
 
-# Part 1: Modeling Employees
+## Part 1: Modeling Employees
 
 ### Step 1:
 1. Code a class to represent an `Employee`. 
@@ -33,17 +35,17 @@
 5a. Instantiate a `Programmer` object and a `Manager` object. 
 5b. Call the `Print` method on each object to verify that the correct version of the method is called.
 
-# Part 2: Modeling Type Specific Behavior
+## Part 2: Modeling Type Specific Behavior
 
 We would like to promote our employees by coding a `Promote` method. However, not all employees are eligible for promotion: programmers and managers get promoted, but interns are temporary employees and are not eligible. Because not all our classes should support the promote operation, it would be incorrect to add the method to the employee class. 
 
 Define a separate interface `IPromotable` for the method. Programmer and Manager implement the interface while Intern does not. Once you have the interface implemented, write some generic code to work with a group of employees and promote only those that are eligible.
 
-# Part 3: Unit Testing the Model
+## Part 3: Unit Testing the Model
 
 Create a unit test project and write tests to verify that the `Print` and `Promote` methods work as expected. 
 
-# Part 4: Documentation
+## Part 4: Documentation
 
 Add XML documentation comments to the classes and methods in the model. Use the `cref` attribute to link to other classes and methods in the documentation. 
 
