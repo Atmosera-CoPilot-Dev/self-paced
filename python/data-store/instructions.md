@@ -1,8 +1,9 @@
-# File IO
+# Python exercise
 
-This workshop will let you practice using copilot with Python. You will work with JSON, text, and CSV files to answer basic questions about the data contained within. While doing this, you will be logging the results to a text file.
-
-These instructions assume you have Python 3 installed. You can use any OS you choose (OS X, Windows,or Linux).
+- This exxercise will let you practice using Copilot with Python. 
+- You will work with JSON, text, and CSV files to answer basic questions about the data contained within. 
+- While doing this, you will be logging the results to a text file.
+- These instructions assume you have Python 3 installed. You can use any OS you choose (OS X, Windows,or Linux).
 
 ## Part 1 Add file logging
 
@@ -40,3 +41,11 @@ Here is rough sketch of the steps needed to answer this:
 3. Find the average of the 7‐day rate for USD to Canadian dollars.
 
 4. Compute Rupees / USD by dividing the two values above.
+
+## Part 4 Unit Testing
+
+Use Copilot to assist you in create a unit test. 
+
+## Part 5 Documentation
+
+Use copilot to add Pydoc comments for each operation used in the app.
