@@ -22,7 +22,7 @@
 ### Step 3:
 - Derive a `Manager` class from `Employee`. 
 - Add a private `string` field to store the name of the manager's assistant.
-  Provide a public constructor that sets the name, salary, and assistant of the manager. Call the `Employee` constructor to set the name and salary rather than assigning to the protected fields directly. 
+- Provide a public constructor that sets the name, salary, and assistant of the manager. Call the `Employee` constructor to set the name and salary rather than assigning to the protected fields directly. 
 - Override the virtual print method to chain to the base class version first and then print out the derived class fields.
 ### Step 4:
 - Derive an `Intern` class from `Employee`.
