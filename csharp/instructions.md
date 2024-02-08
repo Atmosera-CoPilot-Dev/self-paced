@@ -1,4 +1,4 @@
-# Interface Inheritance
+# C# exercise
 
 ## Goals:
 - Use copilot to assist you in writing an interface and coding classes that implement an interface.
