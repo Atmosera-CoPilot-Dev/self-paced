@@ -45,11 +45,7 @@ namespace Interfaces
 		}
 	}
 
-	//
-	// class Programmer
-	//   represents a computer programmer at a corporation
-	//   programmers are eligible for promotion within the company
-	//
+
 	class Programmer : Employee, IPromotable
 	{
 		double averageOT;
@@ -68,6 +64,9 @@ namespace Interfaces
 			Salary *= 1.1;
 		}
 
+		/// <summary>
+		/// Prints the details of a Programmer, including the base details and the average overtime.
+		/// </summary>
 		public override void Print()
 		{
 			Console.WriteLine("Programmer");
