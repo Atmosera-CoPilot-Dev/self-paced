@@ -34,5 +34,5 @@ In this part you will be using functional style iteration with reduce, map, and 
     of each employee whose salary is greater than 70000, sorted in
     descending order of salary.
 
-8) Here\'s a tricky one: implement a way to answer the question \'Are
-    there any employees whose salary is greater than 70000?\'.
+8) Implement a way to answer the question \'Are
+    there any employees whose salary is greater than 60000?\'.
