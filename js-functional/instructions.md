@@ -5,26 +5,13 @@ ability to use copilot to assist in solving problems.
 
 ## Part 1
 
-Open the starter.html file in an editor. In the scripts section are two
-methods that require attention:
+Open the starter.html file in an editor with the copilot extension enabled.
 
-        var mappedNames = names.map(function (){
-            //   return a string in the form 'last, first'
-        });
-        
-        mappedNames.forEach(function (){
-            // use console.log to print each name in its new form
-        });
-
-It is your assignment to implement the correct solution.
+1) create a function that returns a collection in the form 'last, first'
+2) create a function that will output each name in its new form.
 
 The output should look like ths: \[\'Jones, Jim\', \'Fen, Li\', \'Ti,
 May\', \'Thomas, J.T\'\]
-
-Tip: Using your favorite search engine, search \"mdn Array\". This will
-help you quickly find the Array object documentation on the Mozilla
-website. Look for Array.prototype.map() and Array.prototype.forEach(),
-be sure to check for the structure of the callback function.
 
 ## Part 2
 
