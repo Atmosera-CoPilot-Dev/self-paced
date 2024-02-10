@@ -1,1 +1,1 @@
-### lab exerices in a variety of popular languages
+### Copilot lab exercises in a variety of popular languages.
