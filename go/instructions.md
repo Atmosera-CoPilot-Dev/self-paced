@@ -45,8 +45,8 @@ Using a switch statement:
 ## Step 6
 
 Create a method of robot named \"calculateDistance\" that returns a
-value of type float64 Using math.Sqrt, calculate the distance from the
-center using the formula for the hypotenuse: **sqrt(x \* x + y \* y)**\
+value of type float64, calculate the distance from the
+center using the formula for the hypotenuse.
 Return the value
 
 ## Step 7
