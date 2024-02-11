@@ -32,8 +32,8 @@ console.log("Hello, %s", login);
 
 const { data } = await octokit.request("GET /repos/{owner}/{repo}/issues", {
     owner: "ORG-NAME",
-    repo: "REO-NAME",
-    per_page: 1
+    repo: "REPO-NAME",
+    per_page: 10
 })
 // display repository issues to the console
 console.log(data);
