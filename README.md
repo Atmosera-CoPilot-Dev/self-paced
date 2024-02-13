@@ -1,1 +1,1 @@
-### Copilot lab exercises in a variety of popular languages.
+### Copilot workshop exercises in a variety of popular languages.
