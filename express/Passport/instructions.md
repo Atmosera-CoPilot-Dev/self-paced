@@ -24,18 +24,6 @@ The secret you pass to the `express-session` middleware is used to encrypt the c
 
 6) For Passport to actually perform the authentication, you need to configure a new instance of the strategy you get with the `passport-local` module. Since we don't have a real database with usernames and passwords in them, do whatever username/password checking you like:
 
-```
-passport.use(new passportLocal.Strategy(function(username, password, done) {
-    if (username === password) { // Not secure!
-        done(null, {
-            id: username // Use the username as the ID.
-        });
-    } else {
-        done(null, null);
-    }
-}));
-```
-
 7) Passport will store the user's ID in an Express session, but you need to help it figure out what the ID actually is and how to turn that ID back into a user object. Do that with the `passport.serializeUser()` and `passport.deserializeUser()` functions.
 
 In a real app, the `deserializeUser` callback would fetch a user object from a database with the given ID. This exercise just uses the username as the ID.
@@ -43,10 +31,6 @@ In a real app, the `deserializeUser` callback would fetch a user object from a d
 8) To require users to authenticate, you need to redirect them to `/login`, if they're not authenticated yet. Passport adds a `isAuthenticated()` method to request objects that you can use to check this. Create a function called `ensureAuthenticated`. This will be an Express middleware function that checks if the request is authenticated and, if not, redirects.
 
 9) To use that middleware, add it to the routes that need authentication like the route for `/`.
-
-```
-app.get('/', ensureAuthenticated, function(req, res) {
-```
 
 10) You should be able to test this by viewing the app in your browser. To test authenticating, you can open a new "private" window with your browser so they don't reuse cookies. Try visiting `/api/items` without being authenticated. You should be able to see all of the data because the `ensureAuthenticated` middleware was never added to the `/api` routes. 
 

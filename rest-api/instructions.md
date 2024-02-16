@@ -1,8 +1,10 @@
 # REST API
 
-All starter files are located in the starter folder.
+_Follow the instructions using Copilot as your coding assistant._
 
-## Part 1 - Bash API
+_All starter files are located in the starter folder._
+
+## Part 1 - Bash scripts using REST API
 
 In file `create-repos.sh`:
 
@@ -21,9 +23,13 @@ In file `fetch-repos.sh`:
 
 For the following, the necessary dependencies have been added to `package.json`.
 
+### Existing starter code:
+
 1) import the Octokit library
 2) import the prompt-sync library
 3) prompt for personnel authentication token
+
+### Tasks:
 4) authenticate with GitHub using a personal access token
 5) display the login name of authenticated user to the console
 6) use the oktokit request method to make GitHub REST API requests issues for a repository, limit the number of issues to 1 per page.

@@ -26,6 +26,18 @@
                 last: 'Thomas'
             }
         ];
+        // create a function that converts each first, last name in names to a string in the for: last, first
+        function convertNamesToString(names) {
+            return names.map(function (current) {
+                return current.last + ', ' + current.first;
+            });
+        }
+
+        var mappedNames = convertNamesToString(names);
+
+        mappedNames.forEach(function (current) {
+            document.write(current + '<br/>');
+        });
 
         var mappedNames = names.map(function (current) {
             return current.last + ', ' + current.first;
