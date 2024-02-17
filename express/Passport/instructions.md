@@ -1,8 +1,8 @@
 # Passport
 
-Follow the instructions provided to add authentication to an existing Express-based application using Passport. Open your command prompt or terminal and change to the `starter` folder to do your work.p. Use Copilot to assist you in generating d code to complete the exercise.
+Follow the instructions provided to add authentication to an existing Express-based application using Passport. Open your command prompt or terminal and change to the `starter` folder to do your work.p. Use Copilot to assist you in generating code to complete the exercise.
 
-Feel free to experiment by adding additional features to the completed application.
+Feel free to experiment by adding additional features to the completed application with Copilot as your assistant!
 
 You'll need four additional modules that aren't already part of the application. Run this command to get them all:
 
@@ -34,7 +34,7 @@ In a real app, the `deserializeUser` callback would fetch a user object from a d
 
 10) You should be able to test this by viewing the app in your browser. To test authenticating, you can open a new "private" window with your browser so they don't reuse cookies. Try visiting `/api/items` without being authenticated. You should be able to see all of the data because the `ensureAuthenticated` middleware was never added to the `/api` routes. 
 
-11) To fix the problem,  add the routes for `get' and `'set' methods.
+11) To fix the problem,  add the routes for `get` and `set` methods.
 
 You can try it now and see that you get redirected, but that's not how Ajax requsets should behave. Ajax requests can't be redirected to a login page the way normal requests can. You really just want to forbid access to those routes if the user isn't logged in.
 
