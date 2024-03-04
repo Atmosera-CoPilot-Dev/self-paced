@@ -4,7 +4,7 @@
 
 ![.NET and C#](./images/dotnet.jpg)
 
-This contains a collection of demos for Copilot for **C#** and **.NET** through **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
+This contains a collection of demos for Copilot for **C#** and **.NET** through **Visual Studio IDE.**.
 
 Note that Copilot extension for Visual Studio IDE is **only available for Windows**. If you are using Mac, you can use Copilot through VS Code.
 
@@ -19,7 +19,7 @@ All of demos here will require the following as minimum requirements. Some exerc
 
 [See this documentation on how to install Copilot extension for Visual Studio IDE](./CopilotExtensionVS)
 
-## Demos
+## Exercises
 
 You want to start with basic one then jump to other ones.
 
@@ -27,9 +27,7 @@ You want to start with basic one then jump to other ones.
 2. [Test Driven Development (TDD) using C# and .NET through Visual Studio IDE](Demos/TDD-DotNet/README.md)
 
 
-## Contribution
 
-If you want to contribute to this repo, please follow the [Contribution Guidelines](CONTRIBUTING.md).
 
 
 
