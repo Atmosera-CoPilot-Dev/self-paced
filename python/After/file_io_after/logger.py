@@ -15,8 +15,6 @@ class Logger:
         if not os.path.exists(folder):
             raise Exception("The folder for the log file does not exist.")
 
-        # Verify directory exists (note file not needed)
-        # Verify logfile is not itself a directory
 
     def log(self, msg):
         machine = platform.node()
@@ -32,3 +30,10 @@ class Logger:
         # Add to log file
         with open(self.logfile, 'a+') as fout:
             fout.write("{0}\n".format(text))
+
+
+
+
+
+
+
