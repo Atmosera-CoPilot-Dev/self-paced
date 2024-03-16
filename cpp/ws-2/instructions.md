@@ -1,4 +1,4 @@
-Use Copiolot to help wrte C++ code that demonstrates the use of lambda functions and the std::function class template.
+Use Copilot to help wrte C++ code that demonstrates the use of lambda functions and the std::function class template.
 
 Here's a breakdown of the assignment:
 
