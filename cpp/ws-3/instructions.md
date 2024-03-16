@@ -1,6 +1,6 @@
 # Producer Consumer
 
-In this workshop use Copilot to buildout the functionality of a producer-consumer using a a thread-safe queue data structure.
+Use Copilot to buildout the functionality of a producer-consumer using a a thread-safe queue data structure.
 
 ## C++ threading and condition variables
 
