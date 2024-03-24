@@ -1,15 +1,33 @@
+/*
+This file demonstrates the use of lambda functions and std::function in the context of a vector of functions.
+The program declares two functions sqrGen and cubeGen that return lambda functions that will square
+and cube the argument passed to the lambda respectively.
+The program then declares a vector of std::function<int(int)> and pushes the lambda functions returned by sqrGen and cubeGen into the vector.
+The program then iterates through an array of integers and prints the integer, the square of the integer and the cube of the integer.
+*/
+
 #include <iostream>
 #include <functional>
 #include <vector>
 
 using std::cout, std::endl;
 
-// function sqrGen returns a lambda function that will square the argument passed to the lambda
+/*
+Create a function 'sqrGen' which returns a lamda function
+that will square the argument passed to the lambda
+Example usage:
+auto sqr = sqrGen(); int result = sqr(5); // result will be 25
+*/
 auto sqrGen() {
-	return [=](int m)->int {return m * m;};
+    return [](int m)->int {return m * m;};
 }
 
-// function returns a lamda function that will cube the argument passed to the lambda
+/*
+Create a function 'cubeGen' which returns a lamda function
+that will square the argument passed to the lambda
+Example usage:
+auto cube = cubeGen(); int result = cube(5); // result will be 125
+*/
 auto cubeGen() {
 	return [](int m)->int {return m * m * m;};
 }
