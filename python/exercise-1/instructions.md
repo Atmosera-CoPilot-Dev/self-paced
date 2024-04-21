@@ -1,4 +1,4 @@
-# Python exercise
+# Python exercise 1
 
 - This exercise will let you practice using Copilot with Python. 
 - You will work with JSON, text, and CSV files to answer basic questions about the data contained within. 
