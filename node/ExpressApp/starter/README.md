@@ -1,2 +1,0 @@
-- Do your work in this folder.
-- Be sure to install [http-server](https://www.npmjs.com/package/http-server) globally so you will be able to test the server. 
