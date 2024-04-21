@@ -30,10 +30,19 @@ console.log("Hello, %s", login);
 // use the oktokit request method to make GitHub REST API requests issues
 // for a repository, limit the number of issues to 1 per page.
 
+
 const { data } = await octokit.request("GET /repos/{owner}/{repo}/issues", {
-    owner: "ORG-NAME",
-    repo: "REPO-NAME",
+    owner: "Atmosera-CoPilot-Dev",
+    repo: "self-paced",
     per_page: 10
 })
 // display repository issues to the console
 console.log(data);
+
+
+
+
+
+
+
+

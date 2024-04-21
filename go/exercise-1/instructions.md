@@ -12,13 +12,13 @@ Define a type \"direction\" based on the built-in type int
 
 ## Step 2
 
-Create an enumeration of type direction with named constants north,
+Create an enumeration of type "direction" with named constants north,
 south, east, and west.\
 Use iota to set the sequence
 
 ## Step 3
 
-Define a type named \"robot\" based on struct\
+Define a type named "robot" based on struct
 Add the following fields:
 
 -   name (string)
@@ -27,7 +27,7 @@ Add the following fields:
 
 ## Step 4
 
-Create a method of robot named \"initialize\" that takes an argument of
+Create a method of robot named "initialize" that takes an argument of
 type string.\
 Assign the argument to the name field of the robot
 

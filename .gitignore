@@ -6,6 +6,9 @@
 ## VS CODE
 .vscode/
 
+## c-demos folder
+c-demos/
+
 # User-specific files
 *.rsuser
 *.suo
