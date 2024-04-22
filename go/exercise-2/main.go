@@ -40,6 +40,7 @@ func main() {
 
 	// lookup the password from the environment variable MYSQLDBPW
 	password := os.Getenv("MYSQLDBPW")
+// if the password is not set, exit the program
 	if password == "" {
 		log.Fatal("MYSQLDBPW environment variable not set")
 	}
