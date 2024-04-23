@@ -1,6 +1,8 @@
 # Refactoring
 
-You are given a MySQL script 'inventory.sql' and an application 'main.go' that uses the database defined in the script.
+You are given a MySQL script 'recordings.sql' and an application 'main.go' that uses the database defined in the script.
+
+Rewrite the application to use a database abstraction layer so that it can be easily modified to use a different database in the future.
 
 ## Steps:
 

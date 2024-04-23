@@ -1,18 +1,16 @@
 /*
-Create a Go program that connects to a MySQL database 'recordings' and queries the database for albums by a given artist.
+This Go program connects to a MySQL database 'recordings' and queries the database for albums by a given artist.
 
 The 'recordings' database is created using the script provided in the 'recordings.sql' file.
 */
 
 package main
 
-// import a package for MySQL driver
-
 import (
-	"os"
 	"database/sql"
 	"fmt"
 	"log"
+	"os"
 	_ "strings"
 
 	_ "github.com/go-sql-driver/mysql" // use go get -u github.com/go-sql-driver/mysql to install the package
@@ -29,18 +27,19 @@ type Album struct {
 // declare a global variable to store the database connection
 var db *sql.DB
 
+/*
+'main' function details:
+- connect to a MySQL database using the password retrieved from the environment variable MYSQLDBPW.
+- If the password is not set, the program will exit with a fatal error.
+- It then opens a connection to the "recordings" database and pings the database to check the connection.
+- If the connection is successful, it prints a success message.
+- It then calls the 'albumsByArtist' function with the artist name "Pink Floyd" and prints the albums returned by the function.
+*/
 func main() {
-	/* 
-	main is the entry point of the program.
-	It connects to a MySQL database using the password retrieved from the environment variable MYSQLDBPW.
-	If the password is not set, the program will exit with a fatal error.
-	It then opens a connection to the "recordings" database and pings the database to check the connection.
-	If the connection is successful, it prints a success message. 
-	*/
 
 	// lookup the password from the environment variable MYSQLDBPW
 	password := os.Getenv("MYSQLDBPW")
-// if the password is not set, exit the program
+	// if the password is not set, exit the program
 	if password == "" {
 		log.Fatal("MYSQLDBPW environment variable not set")
 	}
