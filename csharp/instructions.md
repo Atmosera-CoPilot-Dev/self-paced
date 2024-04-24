@@ -1,9 +1,9 @@
 # C# exercise
 
 ## Goals:
-- Use copilot to assist you in writing an interface and coding classes that implement an interface.
+- Use copilot and copilot chat to assist you in writing an interface and classes that implement an interface.
 - Explore the use of Copilot to write unit tests for your code.
-- Use XML documentation comments to document your code.
+- Use docstring comments to document your code.
 
 ## Part 1: Modeling Employees
 
