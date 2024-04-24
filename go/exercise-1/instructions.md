@@ -1,5 +1,7 @@
 # Exercise Instructions
 
+Be sure to use copilot to solve the problem!
+
 If you don't already have the Go runtime installed, ask CoPilot for assistance.
 
 In the `starter` folder is a file `robot.go` that defines the main package and the imports you will need.
