@@ -14,6 +14,7 @@ The thread that intends to modify the shared variable must:
 1) Acquire a std::mutex (typically via std::lock_guard)
 2) Modify the shared variable while the lock is owned
 3) Call notify_one or notify_all on the std::condition_variable (can be done after releasing the lock)
+4) leave the app
 */
 
 template <typename T>
