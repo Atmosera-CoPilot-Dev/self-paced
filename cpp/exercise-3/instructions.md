@@ -1,10 +1,10 @@
-# Producer Consumer
+# Producer Consumer Application
 
 Use Copilot to buildout the functionality of a producer-consumer using a a thread-safe queue data structure.
 
 ## C++ threading and condition variables
 
-### In the template class Queue:
+### In the template:
 
 Implement a method `pop()` that will:
  1) acquire the lock
