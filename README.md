@@ -13,6 +13,12 @@ The 'workshops' directory contains the projects created by "GitHub's Expert Serv
 
 [Slides](https://github.com/Atmosera-CoPilot-Dev/self-paced/blob/main/en-v2-github-copilot-developer.pdf)
 
+### NEW GitHub CLI
+
+[Setup GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/setting-up-github-copilot-in-the-cli)
+
+
+
 
 
 
