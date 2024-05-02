@@ -28,10 +28,10 @@ namespace Interfaces
 		//
 		// protected constructor to limit access to derived classes
 		//
-		protected Employee(string name, double salary)
+		public Employee(string name, double sal)
 		{
 			Name   = name;
-			Salary = salary;
+			Salary = sal;
 		}
 
 		//
