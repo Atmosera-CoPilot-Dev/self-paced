@@ -17,6 +17,12 @@ The 'workshops' directory contains the projects created by "GitHub's Expert Serv
 
 [Setup GitHub Copilot CLI](https://docs.github.com/en/copilot/github-copilot-in-the-cli/setting-up-github-copilot-in-the-cli)
 
+### OpenAI
+
+[Tokenization](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/tokenization)
+
+[Tokenizer](https://platform.openai.com/tokenizer)
+
 
 
 
