@@ -1,4 +1,4 @@
-# Self Paced Exercises for GitHub Copilot
+# Self Paced Exercises for GitHub Copilot and Copilot Chat
 
 This repository contains short exercises in a variety of popular languages, designed to help you learn how to use GitHub Copilot. Each exercise is designed to be completed in 15 to 30 minutes.
 
@@ -6,7 +6,7 @@ The 'workshops' directory contains the projects created by "GitHub's Expert Serv
 
 
 ### Authors
-- Andrew Scoppa
+- Andrew C. Scoppa
 - GitHub’s Expert Service team
 
 
