@@ -10,17 +10,17 @@ Follow the instructions below to build a simple robot:
 
 ## Step 1
 
-Define a type \"direction\" based on the built-in type int
+Define a type "direction" based on the built-in type int
 
 ## Step 2
 
 Create an enumeration of type "direction" with named constants north,
-south, east, and west.\
+south, east, and west.
 Use iota to set the sequence
 
 ## Step 3
 
-Define a type named "robot" based on struct
+Define a type named "robot" based on struct.
 Add the following fields:
 
 -   name (string)
@@ -30,13 +30,13 @@ Add the following fields:
 ## Step 4
 
 Create a method of robot named "initialize" that takes an argument of
-type string.\
+type string.
 Assign the argument to the name field of the robot
 
 ## Step 5
 
-Create a method of robot named \"move\" that takes an argument of type
-direction.\
+Create a method of robot named "move" that takes an argument of type
+direction.
 Using a switch statement:
 
 -   increment x if the direction is north,
@@ -46,10 +46,10 @@ Using a switch statement:
 
 ## Step 6
 
-Create a method of robot named \"calculateDistance\" that returns a
+Create a method of robot named "calculateDistance" that returns a
 value of type float64, calculate the distance from the
 center using the formula for the hypotenuse.
-Return the value
+
 
 ## Step 7
 
