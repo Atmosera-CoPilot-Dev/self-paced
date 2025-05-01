@@ -6,7 +6,7 @@ Here's a breakdown of the assignment:
 
 2) Declare an array `ar` and initilize with five elements: (eg. 10, 20, 30, 40, 5).
 
-3) In the main function, declare a vector `v` of `std::function` objects. std::function is a general-purpose polymorphic function wrapper. In this case, it's used to store any callable taking one int and returning an int.
+3) In the `main` function, declare a vector `v` of `std::function` objects. std::function is a general-purpose polymorphic function wrapper. In this case, it's used to store any callable taking one int and returning an int.
 
 4) The lambda functions returned by `sqrGen` and `cubeGen` will need to be added to the vector `v`.
 

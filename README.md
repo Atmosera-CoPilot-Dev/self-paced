@@ -9,9 +9,7 @@ The 'workshops' directory contains the projects created by "GitHub's Expert Serv
 - Andrew Scoppa
 - GitHub’s Expert Service team
 
-### Courseware
 
-[Slides](https://github.com/Atmosera-CoPilot-Dev/self-paced/blob/main/en-v2-github-copilot-developer.pdf)
 
 
 
