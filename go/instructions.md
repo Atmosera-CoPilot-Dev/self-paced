@@ -60,6 +60,8 @@ In main():
 -   Move north, east, north, north
 -   Print the coordinates and the distance from the center
 
-The output sould look like this:\
-Location: (1, 3)\
-Distance from center: 3.162278\
+The output sould look like this:
+```
+Location: (1, 3)
+Distance from center: 3.162278
+```
